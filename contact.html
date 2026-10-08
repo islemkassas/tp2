@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form > 
+        <fieldset>
+            <legend>contactez_moi</legend>
+            <label >civilite:</label>
+            <label for="r1">monsieur</label>
+            <input id="r1" type="radio" name="genre" checked>
+            <label for="r2">madame</label>
+            <input id="r2" type="radio" name="genre">
+            <label for="r3">mademoiselle</label>
+            <input id="r3" type="radio" name="genre">
+            <br><br>
+            <label for="t1">nom:</label>
+            <input id="t1" type="text" placeholder="votre nom" required>
+            <label for="t2">prenom:</label>
+            <input id="t2" type="text" placeholder="votre prenom" required>
+            <br><br>
+            <label for="t3">email:</label>
+            <input id="t3" type="email" placeholder="votre email" required>
+            <label for="t4">tel:</label>
+            <input id="t4" type="tel" placeholder="votre tel" pattern="9[0-9]{7}" maxlength="8" 
+            title="le numero doit contenir 8 chiffre et commencer par 9">
+            <br><br>
+            <label for="t5">sujet</label>
+            <input type="text" id="t5" placeholder="sujet" required>
+            <br><br>
+            <label for="t6">message</label>
+            <br><br>
+            <textarea id="t6" rows="10" cols="30" required></textarea>
+            <br><br>
+            <input type="submit" value="envoyer">
+            <input type="reset" value="annuler">
+    
+
+
+        </fieldset>
+        
+
+    </form>   
+</body>
+</html>
